@@ -32,3 +32,4 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 # TWRP
 DEVICE_RESOLUTION := 480x800
 TW_THEME := portrait_mdpi
+TW_BRIGHTNESS_PATH := /sys/devices/platform/msm_fb.196609/leds/lcd-backlight/brightness
