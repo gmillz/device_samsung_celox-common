@@ -30,7 +30,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 800
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
 # Doze
 #PRODUCT_PACKAGES += \
